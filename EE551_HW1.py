@@ -35,7 +35,9 @@ def lists():
     # Split variable n on a delimiter space into a list of substrings
     n.split(' ')
     # Get all the items past the first of the third substring
-
+    n = "Stevens is awesome"
+    n = n.split()
+    n[2][1:]
     # Create a 3 x 3 matrix as nested list such that
     #   first row is [1, 4, 5]
     #   second row is [6, 10, 11]
